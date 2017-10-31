@@ -130,13 +130,6 @@
             
             renderer.render(scene, camera);
 
-        function loop(){
-            requestAnimationFrame(loop);
-            mesh.rotation.y += 0.04
-            mesh.rotation.z += 0.04
-            renderer.render(scene, camera);
-        }
-
         }   
         loop();
         
